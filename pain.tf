@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "pawan" {
-  name     = "PAnkit"
+  name     = "Pawan Gupta"
   location = "East US"
 }
 
