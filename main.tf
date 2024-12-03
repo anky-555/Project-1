@@ -3,3 +3,7 @@ resource "azurerm_resource_group" "ankit" {
   location = "East US"
 }
 
+resource "azurerm_resource_group" "ankit" {
+  name     = "Pankiy"
+  location = "East US"
+}
