@@ -8,7 +8,4 @@ resource "azurerm_resource_group" "pankit" {
   location = "East US"
 }
 
-resource "azurerm_resource_group" "sankit" {
-  name     = "Sankiy"
-  location = "East US"
-}
+
