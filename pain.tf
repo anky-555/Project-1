@@ -1,5 +1,12 @@
-resource "azurerm_resource_group" "pawan" {
-  name     = "PAnkit Sharma"
-  location = "West US"
+terraform {
+required_providers {
+azurerm = {
+source = "hashicorp/azurerm"
+version = "4.23.0"
+}
+}
 }
 
+provider "azurerm" {
+
+}
