@@ -8,5 +8,5 @@ version = "4.23.0"
 }
 
 provider "azurerm" {
-
+features {}
 }
